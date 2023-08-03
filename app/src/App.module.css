@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.contract,
+.existing-contracts {
+  margin: 20px;
+  padding: 40px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-width: 400px;
+}
+
+.escrow-container {
+  display: flex;
+  flex-flow: column nowrap;
+  max-height: 600px;
+  overflow: scroll;
+}
+
+h1 {
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #aaa;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 6px 12px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.button {
+  background-color: #28add5;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.existing-contract {
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  padding: 20px;
+  margin: 12px;
+}
+
+.existing-contract > ul {
+  padding: 0;
+}
+
+.existing-contract ul > li {
+  list-style: none;
+  display: flex;
+  margin: 10px 0;
+}
+
+.existing-contract ul > li > div {
+  margin: 0 5px;
+}
+
+.existing-contract ul > li > :first-child {
+  font-weight: bold;
+}
+
+.existing-contract .complete {
+  color: #5aa75a;
+  text-align: center;
+}
